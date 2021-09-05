@@ -6,3 +6,6 @@
 ## the ssh key files and config for wls v2 ubuntu VM on win10
 ## can access most of existing servers(office/home)
 windows-terminal-user-ssh.tgz.enc.enc
+
+## after setup ssh 
+## read encrypted _2 for more notes to restore the working env 
