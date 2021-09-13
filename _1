@@ -7,5 +7,13 @@
 ## can access most of existing servers(office/home)
 windows-terminal-user-ssh.tgz.enc.enc
 
+	Note: create tar ball directly from /home/paxu/.ssh, don't copy to under git-work, which is on Window dir, outside wls v2 ubuntu VM, so you can't keep Linux file permission
+
+
 ## after setup ssh 
 ## read encrypted _2 for more notes to restore the working env 
+
+
+git config --global user.email "paulxu2005@gmail.com"
+git config --global user.name "Paul Xu"
+git config --global core.editor "vim"
