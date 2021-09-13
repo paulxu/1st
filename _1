@@ -22,3 +22,6 @@ git config --global core.editor "vim"
 chown -R <user>.<group> ~/.ssh
 chmod 0700 ~/.ssh
 chmod 0600 ~/.ssh/*
+
+## test ssh access
+git remote set-url origin git@github.com:paulxu/1st.git
