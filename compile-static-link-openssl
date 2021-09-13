@@ -1,0 +1,19 @@
+
+https://stackoverflow.com/questions/20147707/compiling-the-openssl-binary-statically/30926133
+
+git clone git://git.openssl.org/openssl.git
+
+cd openssl
+git branch -r
+git checkout OpenSSL_1_1_1-stable
+
+sudo apt install build-essential -y
+./config -static
+
+make -j`nproc`
+
+ldd apps/openssl
+file apps/openssl
+
+apps/openssl version
+OpenSSL 1.1.1m-dev  xx XXX xxxx

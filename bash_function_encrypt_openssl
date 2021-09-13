@@ -6,12 +6,14 @@
 #### tested NOT working
 ## OpenSSL 1.0.2k-fips
 
+## to make it work universally, include a static linked openssl
+
 encrypt ()
 {
-	openssl enc -aes-256-cbc -md sha512 -pbkdf2 -iter 200000 -salt -in "$1" -out "$1.enc"
+	./openssl enc -aes-256-cbc -md sha512 -pbkdf2 -iter 200000 -salt -in "$1" -out "$1.enc"
 }
 
 decrypt ()
 {
-	openssl enc -d -aes-256-cbc -md sha512 -pbkdf2 -iter 200000 -salt -in "$1.enc" -out "$1"
+	./openssl enc -d -aes-256-cbc -md sha512 -pbkdf2 -iter 200000 -salt -in "$1.enc" -out "$1"
 }
