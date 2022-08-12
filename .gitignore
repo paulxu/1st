@@ -1,6 +1,8 @@
 github-access-token
-windows-terminal-user-ssh.tgz.enc
-windows-terminal-user-ssh.tgz
+windows-terminal-user-ssh*tgz
+windows-terminal-user-ssh*tgz.enc
+openVPNClientConfig.ovpn
+openVPNClientConfig.ovpn.enc
 cp-ssh.sh.enc
 cp-ssh.sh
 home/
@@ -9,3 +11,4 @@ _2
 _2-working
 backup/
 ssh/
+bash_env/
