@@ -9,6 +9,16 @@ windows-terminal-user-ssh.tgz.enc.enc
 
 	Note: create tar ball directly from /home/paxu/.ssh, don't copy to under git-work, which is on Window dir, outside wls v2 ubuntu VM, so you can't keep Linux file permission
 
+## customization of windows terminal
+down arrow > setting
+	choose a profile > open json file (lower left coner)
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "copyOnSelect": true,   <<<<< add this line
+    "profiles": 
 
 ## after setup ssh 
 ## read encrypted _2 for more notes to restore the working env 
