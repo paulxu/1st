@@ -3,6 +3,8 @@ windows-terminal-user-ssh*tgz
 windows-terminal-user-ssh*tgz.enc
 openVPNClientConfig.ovpn
 openVPNClientConfig.ovpn.enc
+bitbucket-export
+bitbucket-export.enc
 cp-ssh.sh.enc
 cp-ssh.sh
 home/
